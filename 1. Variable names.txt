@@ -1,0 +1,39 @@
+
+element - headItemToRemove (head_item_to_remove)
+// элемент, удаляемый из головы очереди
+
+m_adjacency - adjacencyMatrix(adjacency_matrix)
+// матрица смежности
+
+vertex - vertexList(vertex_list)
+// список, хранящий вершины графа
+
+ca - charArray (char_array)
+// массив символов
+
+node - currentNode (current_node)
+// текущий узел в методах связанного списка
+
+parent - parentNode (parent_node)
+// родительский узел в дереве
+
+i - currentHeapArrayItem (current_heap_array_item)
+// текущий элемент массива кучи
+
+mid - centerItemIndex (center_item_index)
+// индекс центрального элемента при бинарном поиске
+
+Left, Right - leftRangeBound, rightRangeBound (left_range_bound, right_range_bound)
+// левая и правая границы диапазона массива при бинарном поиске
+
+N - targetValue (target_value)
+// искомое значение при бинарном поиске
+
+a - sourceArray (source_array)
+// исходный массив для построения сбалансированного двоичного дерева поиска
+
+s - sourceAMNString (source_amn_string)
+// исходная строка вида AMN, передаваемая для сортировки по возрастанию за линейное время
+
+
+
