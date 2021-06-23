@@ -1,0 +1,25 @@
+6.1
+array - buffer //буфер для хранения элементов динамического массива
+count - currentBufferSize //текущее количество элементов в буфере динамического массива
+capacity - currentBufferCapacity //текущая ёмкость буфера динамического массива
+slot - emptySlotIndex //индекс пустого слота в хэш-таблице
+slot - targetSlotIndex //индекс слота с искомым значением в хэш-таблице
+
+6.2
+m_adjacency - adjacencyMatrix //матрица смежности
+array - bitArray //битовый массив
+hash - hashFunction //хэш-функция
+mask - bitMask //битовая маска
+
+6.3
+heapArray, heapSize
+bstNodeKey, bstNodeValue, bstParent, bstLeftChild, bstRightChild
+cacheSize, cacheSlots, cacheValues, cacheStep, cacheHitsCounter
+
+6.4
+node - currentNode
+N - targetValue
+s - sourceString
+mid - centerIndex
+hits - hitsCounter
+
