@@ -1,0 +1,24 @@
+7.1
+swaped - swapped
+_ascending - isAscending
+FindMax - needToFindMax
+ToLeft - willBeAddedToLeft
+Hit - visited
+
+7.2
+edgeFound
+// есть ли ребро между вершинами в графе
+
+done
+// удалось ли добавить/удалить узел
+
+7.3
+v - currentVertex
+
+7.4
+head/tail
+leftChild/rightChild
+
+7.5
+temp - valueToSwap
+r - allNodesList
