@@ -1,0 +1,35 @@
+1. value - nodeValue
+// значение узла списка
+
+2. count - numListItems
+// общее количество элементов в списке
+
+3. list1, list2 - firstSourceList, secondSourceList
+// исходные списки, передаваемые в функцию для вычисления суммы элементов этих списков
+
+4. sum_list - listItemsSum
+// сумма элементов списка
+
+5. str1 - sourceString
+// строка, передаваемая в качестве аргумента в хэш-функцию
+
+6. size - hashTableSize
+// размер хэш-таблицы
+
+7. min - numHitsMin
+// наименьшее количество обращений к ключу кэша
+
+8. a - sourceArray
+// исходный массив для построения сбалансированного двоичного дерева поиска
+
+9. max - heapKeyMax
+// максимальное значение ключа кучи
+
+10. i - currentHeapArrayItem
+// текущий элемент массива кучи
+
+11.  v1, v2 - firstVertexIndex, secondVertexIndex
+// индексы вершин графа
+
+12. result - binarySearchResult
+// результат выполнения бинарного поиска
