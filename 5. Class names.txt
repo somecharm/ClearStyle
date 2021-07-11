@@ -1,0 +1,15 @@
+3.1
+DynArray - DynamicArray
+LinkedList2 - DoublyLinkedList
+AlgorithmsDataStructures2 - BalancedBST
+aBST - ArrayBST
+BSTfind - FoundBSTNode
+
+3.2
+count - size
+find - get
+findAll - getAll
+getItem - get
+delete - remove
+put - add
+addTail - addInTail
