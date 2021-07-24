@@ -1,0 +1,12 @@
+3.1
+BoundedStack boundedStack = BoundedStack.MaxCapacity(64)
+HashTable hashTable = HashTable.OfClassAndSize(Integer, 48)
+BloomFilter bloomFilter = BloomFilter.MaxLength(32)
+
+3.2
+StackFactory
+ListFactory
+ArrayFactory
+
+
+
