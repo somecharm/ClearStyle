@@ -1,0 +1,29 @@
+return value.getBytes().length % size;
+if (size > 0) {return value.getBytes().length % size}
+// добавлена проверка, что хэш-таблица не пустая
+
+hash = (hash * 17 + code) % filter_len;
+if {filter_len > 0) {hash = (hash * 17 + code) % filter_len}
+// добавлена проверка, что фильтр Блюма не пустой
+
+boolean outOfBounds = index < 0 && index > capacity;
+// в динамическом массиве условие заменено логической переменной
+
+boolean  containsValue = slots[slot] != null && slots[slot].equals(value);
+// в методах get и remove множества условие заменено логической переменной
+
+boolean containsKey = slots[slot].equals(key);
+// для упрощения условий в методах put и get кэша использована логическая переменная
+
+int leftChildIndex = 2 * index + 1
+int rightChildIndex = 2 * index + 2
+if (leftChildIndex < BSTArray.length && BSTArray[leftChildIndex] > 0) {
+    Node.LeftChild = AddNode(leftChildIndex, Node);}
+// улучшена читабельность условий в методе AddNode двоичного дерева поиска с помощью переменных
+
+boolean outOfBounds = N > array[array.length - 1] || N < array[0];
+// упрощено условие в экспоненциальном поиске с помощью логической переменной
+
+boolean firstValueIsInteger = v1.getClass() == Integer.class
+boolean secondValueIsString = v2.getClass() == String.class
+// для упрощения условий в упорядоченном списке использованы логические переменные
