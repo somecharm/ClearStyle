@@ -1,0 +1,96 @@
+// Было:
+step = stp;
+// Стало:
+final int STEP = stp;
+// Переменная в хеш-таблице заменена константой
+
+// Было:
+size = sz;
+// Стало:
+final int SIZE = sz;
+// Переменная в хеш-таблице заменена константой
+
+// Было:
+makeArray(16);
+// Стало:
+final int MIN_CAPACITY = 16;
+makeArray(MIN_CAPACITY);
+// В динамическом массиве добавлена константа, хранящая минимальный размер массива
+
+// Было:
+filter_len = f_len;
+// Стало:
+final int FILTER_LENGTH = f_len;
+// Переменная в фильтре Блюма заменена константой
+
+// Было:
+for (int i = 0; i < str1.length(); i++) {
+    int code = (int) str1.charAt(i);
+    hash = (hash * 17 + code) % filter_len;
+}
+// Стало:
+int code = 0
+for (int i = 0; i < str1.length(); i++) {
+    code = (int) str1.charAt(i);
+    hash = (hash * RND_NUMBER + code) % FILTER_LENGTH;
+}
+// В фильтре Блюма переменная code инициализирована перед циклом
+
+// Было:
+int i = HeapSize - 1;
+HeapArray[0] = HeapArray[i];
+HeapArray[i] = 0;
+i = 0;
+while (true) {
+    int max = i;
+    ...
+    i = max;
+}
+// Стало:
+HeapArray[0] = HeapArray[HeapSize - 1];
+HeapArray[HeapSize - 1] = 0;
+int i = 0;
+int max = 0;
+while (true) {
+    max = i;
+    ...
+    i = max;
+}
+// Переменная i теперь используется только в теле цикла, переменная max инициализирована перед циклом
+
+// Было:
+max_vertex = size;
+// Стало:
+final int MAX_VERTICES_NUM = f_len;
+// Переменная, обозначающая максимальное число вершин в графе, заменена константой
+
+// Было:
+while (!stack.empty()) {
+    int x = Arrays.asList(vertex).indexOf(stack.peek());
+    ...
+}
+// Стало:
+int x = 0;
+while (!stack.empty()) {
+    x = Arrays.asList(vertex).indexOf(stack.peek());
+    ...
+}
+// В функции обхода графа в глубину переменная x инициализирована перед циклом
+
+// Было:
+while (!queue.isEmpty()) {
+    int x = Arrays.asList(vertex).indexOf(queue.poll());
+    int j = 0;
+    ...
+}
+// Стало:
+int x = 0;
+int j = 0;
+while (!queue.isEmpty()) {
+    x = Arrays.asList(vertex).indexOf(queue.poll());
+    ...
+}
+// В функции обхода графа в ширину переменные x и j инициализированы перед циклом
+
+
+
